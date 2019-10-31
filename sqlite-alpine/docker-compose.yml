@@ -1,0 +1,7 @@
+version: "2"
+services:
+  sqlite-alpine:
+    build: "./"
+    tty: true
+    container_name: "sqlite_alpine"
+    command: /bin/ash
